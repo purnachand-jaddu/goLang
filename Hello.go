@@ -4,7 +4,13 @@ import (
 	"fmt"
 )
 
+type SampleStruct struct {
+	val int
+}
+
 func main() {
-	var a = 6
-	fmt.Println("Hello",a)
+	first := SampleStruct{}
+	second := first
+	second.val = 100
+	fmt.Println(&first, &second)
 }
