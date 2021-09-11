@@ -6,6 +6,10 @@ type HashSet struct {
 	valMap map[interface{}]bool
 }
 
+func makeHashMap(valMap map[interface{}]bool) *HashSet {
+	return &HashSet{valMap: valMap}
+}
+
 func (s *HashSet) add(key interface{}) {
 	s.valMap[key] = true
 }
@@ -23,8 +27,7 @@ func (s *HashSet) size() int {
 }
 
 func main() {
-	set := HashSet{}
-	set.valMap = map[interface{}]bool{}
+	set := makeHashMap(map[interface{}]bool{})
 	set.add(1)
 	set.add(2)
 	set.add(3)
@@ -37,5 +40,4 @@ func main() {
 	fmt.Printf(" Size of set is %d \n", set.size())
 	fmt.Println(set.contains(1))
 	fmt.Println(set.contains(100))
-
 }
