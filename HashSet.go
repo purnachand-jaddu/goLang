@@ -26,7 +26,7 @@ func (s *HashSet) size() int {
 	return len(s.valMap)
 }
 
-func main() {
+func TestHashSet() {
 	set := makeHashMap(map[interface{}]bool{})
 	set.add(1)
 	set.add(2)

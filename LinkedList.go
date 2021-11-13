@@ -87,7 +87,7 @@ func (l *LinkedList) search(val int) bool {
 	return false
 }
 
-func main() {
+func TestLinkedList() {
 	list := LinkedList{}
 	list.insert(1)
 	list.insert(2)

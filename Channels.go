@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func main() {
+func SumUsingTwoChannels() {
 	start := time.Now()
 	input := []int{1, 2, 3, 4, 5, 6}
 	c := make(chan int)

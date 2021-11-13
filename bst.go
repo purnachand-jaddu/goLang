@@ -123,7 +123,7 @@ func printNodeValue(root *TreeNode) {
 	fmt.Printf("%d ", root.val)
 }
 
-func main() {
+func TestBST() {
 	tree := Tree{}
 	tree.insert(2)
 	tree.insert(1)

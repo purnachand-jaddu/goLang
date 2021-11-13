@@ -26,7 +26,7 @@ func (q *Queue) remove() (int, error) {
 	return returnValue, nil
 }
 
-func main() {
+func TestQueue() {
 	queue := Queue{}
 	queue.insert(1)
 	queue.insert(2)

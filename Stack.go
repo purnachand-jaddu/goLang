@@ -47,7 +47,7 @@ func (s *Stack) peek() (int, error) {
 	}
 }
 
-func main() {
+func TestStack() {
 	stack := Stack{}
 	stack.push(1)
 	stack.push(2)

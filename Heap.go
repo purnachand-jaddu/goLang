@@ -51,7 +51,7 @@ func greaterComparator(x int, y int) bool {
 	return x >= y
 }
 
-func main() {
+func TestHeap() {
 	minHeap := Heap{}
 	minHeap.comp = lessComparator
 	minHeap.insert(100)
