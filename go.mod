@@ -1,3 +1,3 @@
-module www.github.com/purnachand-jaddu/goLang
+module github.com/purnachand-jaddu/goLang/tree/main
 
 go 1.17

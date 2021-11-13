@@ -1,12 +1,12 @@
 package main
 
 import (
-	"www.github.com/purnachand-jaddu/goLang/bst"
-	"www.github.com/purnachand-jaddu/goLang/heap"
-	"www.github.com/purnachand-jaddu/goLang/linkedlist"
-	"www.github.com/purnachand-jaddu/goLang/queue"
-	"www.github.com/purnachand-jaddu/goLang/set"
-	"www.github.com/purnachand-jaddu/goLang/stack"
+	"github.com/purnachand-jaddu/goLang/tree/main/bst"
+	"github.com/purnachand-jaddu/goLang/tree/main/heap"
+	"github.com/purnachand-jaddu/goLang/tree/main/linkedlist"
+	"github.com/purnachand-jaddu/goLang/tree/main/queue"
+	"github.com/purnachand-jaddu/goLang/tree/main/set"
+	"github.com/purnachand-jaddu/goLang/tree/main/stack"
 )
 
 func main() {
